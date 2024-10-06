@@ -13,7 +13,7 @@
 /*Text color classes*/
 
 .cms-text-main {
-    color: var(--main-color);    
+    color: var(--main-color);
 }
 
 .cms-text-main-light {
@@ -253,6 +253,197 @@ a.CMS-text-bigger {
 
 
 
+/*----- Styling for Home Page -------*/
+
+.home-logo {
+    margin: 7rem 0;
+}
+
+.home-title h3 {
+    font-family: 'Oswald', sans-serif;
+    /*color: #ff3333;*/ /* Matching the red from the original image */
+    border-bottom: 2px solid #ff3333;
+    padding-bottom: 10px;
+    width: 15%;
+}
+
+.btn-danger:hover {
+    background-color: #cc0000;
+}
+
+.btn-container {
+    margin: 5rem 0;
+    padding: 10px;
+}
+
+
+
+
+
+/* -----About Us CSS--------*/
+.about_section {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.about_section h2 {
+        border-bottom: 2px solid #ff3333;
+        padding-bottom: 10px;
+        border-spacing: 10px;
+        margin: auto;
+        width: 39%;
+        border-width: 5px;
+}
+
+.header {
+    background-image: url('images/theater.jpg');
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+    .header::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.5);
+    }
+
+    .header h1 {
+        font-size: 58px;
+        z-index: 1;
+    }
+
+.content {
+    padding: 70px 20px;
+
+}
+
+.curve {
+    position: relative;
+    border-radius: 0 0px 0px 100px;
+    background-color: black;
+    z-index: 2;
+    margin-bottom: -90px
+}
+
+.section {
+    max-width: 800px;
+    margin: 0 auto 40px;
+    text-align: center;
+}
+
+    .section h2 {
+        color: white;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+    }
+
+    .section p {
+        font-family: Arial, sans-serif;
+        font-size: 22px;
+    }
+
+.red-section {
+    background-color: #FF4136;
+    padding: 120px 20px;
+   
+    
+}
+
+.ensemble-section {
+    background-color: black;
+    border-radius: 0 100px 0px 0px;
+    /* Bottom corners curved */
+    padding: 40px 20px;
+    margin-bottom: 40px;
+    margin-top: -100px
+}
+
+.ensemble {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.member {
+    text-align: center;
+    width: 150px;
+}
+
+    .member img {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        margin-bottom: 10px;
+    }
+
+    .member p {
+        margin: 5px 0;
+        font-size: 14px;
+    }
+
+/*----- End of About Us CSS*-------/
+
+
+
+
+/*--- Contact CSS----*/
+.contact_section {
+    background-color: #FF4136;
+}
+
+.contact_jumbotron{
+    background-color: black;
+    border-radius: 0px 0px 0px 100px;
+    padding: 10rem 1rem !important;
+}
+
+.header_2 {
+    padding: 2rem 0;
+    text-transform: uppercase;
+}
+
+.jumbotron {
+    padding: 6rem 1rem;
+    background-position: center;
+    color: white;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+h2 {
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+p {
+    margin-bottom: 1.5rem;
+}
+
+.btn-block {
+    width: 100%;
+    padding: .7rem;
+    border-radius: 15px;
+    margin: 2rem 0;
+}
+
+
+/*-----End Contact CSS ------*/
 
 /*-----Styling for _Footer.cshtml-----*/
 
@@ -440,7 +631,7 @@ footer {
 
 /* Donate.cshtml View Styling */
 
-.broadway-font{
+.broadway-font {
     font-family: Broadway;
 }
 
