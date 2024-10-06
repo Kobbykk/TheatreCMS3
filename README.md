@@ -56,12 +56,20 @@ The user wanted to store information about blog writers/authors working for the 
 - Successfully migrated the database using Entity Framework to store the BlogAuthor data.
 
 ```HTML
-public class BlogAuthor
+namespace TheatreCMS3.Areas.Blog.Models
 {
-    public int BlogAuthorId { get; set; }
-    public string Name { get; set; }
-    public string Bio { get; set; }
-    public string SocialMediaHandle { get; set; }
+    public class BlogAuthor
+    {
+        public int BlogAuthorId { get; set; }
+
+        public string Name { get; set; }
+
+        public string Bio { get; set; }
+
+        public DateTime Joined { get; set; }
+
+        public DateTime? Left { get; set; }
+    }
 }
 ```
 
