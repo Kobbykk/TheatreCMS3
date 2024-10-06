@@ -110,7 +110,7 @@ The user wanted a Contact Us page that includes a form for users to fill out, al
 - Included form fields for name, email, subject, and message.
 - Created separate buttons for Donate and Volunteer.
 
-![Contact Page Image](TheatreCMS3/Content/images/Contact_page.png)
+![Contact Page Image](TheatreCMS3/Content/images/Contact_page.PNG)
 
 
 ## **Optional User Story E: Save Productions to Database**
